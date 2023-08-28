@@ -7,9 +7,9 @@ import {
   Param,
   Delete,
 } from '@nestjs/common';
-import { StopsService } from './stops.service';
-import { CreateStopDto } from './dto/create-stop.dto';
-import { UpdateStopDto } from './dto/update-stop.dto';
+import { StopsService } from './arrival.service';
+import { CreateStopDto } from './dto/create-arrival-alert.dto';
+import { UpdateStopDto } from './dto/update-arrival-alert.dto';
 
 @Controller('stops')
 export class StopsController {
@@ -20,9 +20,9 @@ export class StopsController {
     return this.stopsService.create(createStopDto);
   }
 
-  @Get()
+  @Get('home')
   findAll() {
-    return this.stopsService.findAll();
+    return 'aa';
   }
 
   @Get(':id')

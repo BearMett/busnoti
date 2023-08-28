@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { BusStopProvider } from './external/bus-stop/stop.provider';
+import { BusStopProvider } from './external/bus-station/bus-station.provider';
 import { HttpModule } from '@nestjs/axios';
 
 describe('AppController', () => {

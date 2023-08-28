@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { CreateStopDto } from './dto/create-stop.dto';
-import { UpdateStopDto } from './dto/update-stop.dto';
+import { CreateStopDto } from './dto/create-arrival-alert.dto';
+import { UpdateStopDto } from './dto/update-arrival-alert.dto';
 
 @Injectable()
 export class StopsService {

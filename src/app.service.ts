@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { BusStopProvider } from './external/bus-stop/stop.provider';
+import { BusStopProvider } from './external/bus-station/bus-station.provider';
 import { XmlParser } from './common/utils/xml2js/xml2js.provider';
 
 @Injectable()
